@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-900 pl-32 flex items-center place-content-start h-screen text-5xl relative"> 
+    <div class="content ">
+        <div class="top-text mb-10 text-white">
+            Generate a <span class="underline text-green-400 block mt-5">Random Password</span>
+        </div>
+        <div class="flex mb-10">
+            <input type="text" id="password-box" class="relative rounded-lg focus:outline-none text-black px-8 py-5 text-xl input-width">
+            <div class="before:content-['Copied'] before:text-white before:absolute before:top-0 before:mx-auto before:bg-gray-700 before:text-lg before:px-10 before:py-2 before:rounded-md before:hidden" id="copy-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24" style="fill: rgb(74 222 128);transform: rotate(270deg)"><path d="M14 8H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V10c0-1.103-.897-2-2-2z"></path><path d="M20 2H10a2 2 0 0 0-2 2v2h8a2 2 0 0 1 2 2v8h2a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path></svg>
+            </div>
+        </div>
+
+        <button id="generate-button" class="text-white flex bg-green-400 px-10 py-5 button-border-radius hover:bg-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M17.168 8H13l.806-4.835A1 1 0 0 0 12.819 2H7.667a1 1 0 0 0-.986.835l-1.667 10A1 1 0 0 0 6 14h4v8l8.01-12.459A1 1 0 0 0 17.168 8z"></path></svg>Generate Password</button>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button-border-radius{
+    border-radius: 7px;
+}
+
+.content input[type="text"] {
+    color: black;
+    width: 500px;
+}
+
+.content svg{
+    cursor: pointer;
+    position: relative;
+}
